@@ -60,22 +60,22 @@ To read more about this data, including a data dictionary and the parameters of 
 
 **Companies**
 
-  Field Name                              Data Type                                    Description
-  --------------------------------------- -------------------------------------------- -------------------------------------------------------------------------------------------------------------
-  Name                                    Variant Character Field                      Name of theater company, production company, or distribution company
-  White or AfAm Owned                     Variant Character Field                      If the company was white-owned or African-American-owned
-  Date founded                            Date                                         Date the company was founded; most dates only include the year founded, which then defaults to January 1st
-  Date closed                             Date                                         Date the company was defunct; most dates only include the year founded, which then defaults to January 1st
-  Location Founded                        Variant Character Field                      Location of the company; some entries include exact addresses, while others only include the city and state
-  Films (Produced)                        Variant Character Field; Linked Data Field   Films the company produced
-  Source                                  Variant Character Field; Linked Data Field   Primary or secondary source in which the company was mentioned for this dataset
-  Notes                                   Variant Character Field                      Miscellaneous notes
-  Attachments                             File Attachment                              Primary or secondary sources, photos, etc.
-  Associated People                       Variant Character Field; Linked Data Field   People associated with the company, mentioned in any primary or secondary source for this dataset
-  Films (Distributed)                     Variant Character Field; Linked Data Field   Films the company distributed
-  Actors in Theater Company               Variant Character Field; Linked Data Field   Last names of actors associated with the theater company, if applicable
-  Associated People (Full Name)           Variant Character Field                      Full names of anyone associated with the theater company, if applicable
-  Actors in Theater Company (Full Name)   Variant Character Field                      Full names of actors associated with the theater company, if applicable
+Field Name       |     Data Type                                |    Description
+--- | --- | ---
+  Name                        |            Variant Character Field                      Name of theater company, production company, or distribution company|
+  White or AfAm Owned          |           Variant Character Field            |          If the company was white-owned or African-American-owned
+  Date founded          |                  Date                             |            Date the company was founded; most dates only include the year founded, which then defaults to January 1st
+  Date closed               |              Date                              |           Date the company was defunct; most dates only include the year founded, which then defaults to January 1st
+  Location Founded                    |    Variant Character Field             |         Location of the company; some entries include exact addresses, while others only include the city and state
+  Films (Produced)            |            Variant Character Field; Linked Data Field  | Films the company produced
+  Source                        |          Variant Character Field; Linked Data Field |  Primary or secondary source in which the company was mentioned for this dataset
+  Notes                       |            Variant Character Field              |        Miscellaneous notes
+  Attachments                      |       File Attachment                       |       Primary or secondary sources, photos, etc.
+  Associated People               |        Variant Character Field; Linked Data Field  | People associated with the company, mentioned in any primary or secondary source for this dataset
+  Films (Distributed)              |       Variant Character Field; Linked Data Field |  Films the company distributed
+  Actors in Theater Company        |       Variant Character Field; Linked Data Field  | Last names of actors associated with the theater company, if applicable
+  Associated People (Full Name)     |      Variant Character Field             |         Full names of anyone associated with the theater company, if applicable
+  Actors in Theater Company (Full Name) |  Variant Character Field            |          Full names of actors associated with the theater company, if applicable
 
 **Sources**
 
@@ -84,7 +84,7 @@ To read more about this data, including a data dictionary and the parameters of 
   Title            |     Variant Character Field                 |     Title of source used in this dataset
   Author LN         |    Variant Character Field                  |    Last name of author
   Author FN         |    Variant Character Field                   |   First name of author
-  Date of Publication |  Date                                     +    Date the source was published; if the source only includes the year, the date defaults at January 1^st^
+  Date of Publication |  Date                                     |    Date the source was published; if the source only includes the year, the date defaults at January 1^st^
   Publisher        |     Variant Character Field                  |    Publisher of source
   Archive           |    Variant Character Field                   |   Archive where the source can be found
   Location in Archive  | Variant Character Field                    |  Location within the Archive in which the source can be found
