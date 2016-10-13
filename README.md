@@ -79,17 +79,17 @@ To read more about this data, including a data dictionary and the parameters of 
 
 **Sources**
 
-  Field Name            Data Type                                    Description
-  --------------------- -------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------
-  Title                 Variant Character Field                      Title of source used in this dataset
-  Author LN             Variant Character Field                      Last name of author
-  Author FN             Variant Character Field                      First name of author
-  Date of Publication   Date                                         Date the source was published; if the source only includes the year, the date defaults at January 1^st^
-  Publisher             Variant Character Field                      Publisher of source
-  Archive               Variant Character Field                      Archive where the source can be found
-  Location in Archive   Variant Character Field                      Location within the Archive in which the source can be found
-  Notes                 Variant Character Field                      Miscellaneous notes about the source
-  Attachments           File Attachment                              Any attachment relevant to the source
-  Films                 Variant Character Field; Linked Data Field   Films which the source is associated with i.e. mentions, discusses, pictures, etc.
-  Production Company    Variant Character Field; Linked Data Field   Production companies which the source is associated with i.e. mentions, discusses, pictures, etc.
-  People                Variant Character Field; Linked Data Field   People—such as actors, directors, producers, etc.—which the source is associated with i.e. mentions, discusses, pictures, etc.
+  Field Name       |     Data Type                                |    Description
+--- | --- | ---
+  Title            |     Variant Character Field                 |     Title of source used in this dataset
+  Author LN         |    Variant Character Field                  |    Last name of author
+  Author FN         |    Variant Character Field                   |   First name of author
+  Date of Publication |  Date                                     +    Date the source was published; if the source only includes the year, the date defaults at January 1^st^
+  Publisher        |     Variant Character Field                  |    Publisher of source
+  Archive           |    Variant Character Field                   |   Archive where the source can be found
+  Location in Archive  | Variant Character Field                    |  Location within the Archive in which the source can be found
+  Notes             |    Variant Character Field                   |   Miscellaneous notes about the source
+  Attachments       |    File Attachment                           |   Any attachment relevant to the source
+  Films              |   Variant Character Field; Linked Data Field  | Films which the source is associated with i.e. mentions, discusses, pictures, etc.
+  Production Company  |  Variant Character Field; Linked Data Field  | Production companies which the source is associated with i.e. mentions, discusses, pictures, etc.
+  People            |    Variant Character Field; Linked Data Field  | People—such as actors, directors, producers, etc.—which the source is associated with i.e. mentions, discusses, pictures, etc.
