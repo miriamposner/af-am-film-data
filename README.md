@@ -1,9 +1,9 @@
-# Reconstructing-Early-African-American-Film-History
+# Reconstructing Early African American Film History Database
 This project was created by UCLA students and faculty members  to reconstruct and revive the history of early African-American silent race films.  The interest for this project was sparked by the Johnson Negro Film Collection at UCLA’s Charles E. Young Research Library. The intention behind this project was to address a too seldom-discussed history, through a structure that would be the most effective for academic research.
 
 To read more about this data, see the [project website](http://dhbasecamp.humanities.ucla.edu/afamfilm/).
 
-[![DOI](https://zenodo.org/badge/22873/miriamposner/af-am-film-data.svg)](https://zenodo.org/badge/latestdoi/22873/miriamposner/af-am-film-data)
+[![DOI](https://zenodo.org/badge/62099402.svg)](https://zenodo.org/badge/latestdoi/62099402)
 
 Data Dictionary
 ===========
